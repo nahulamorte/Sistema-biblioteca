@@ -1,0 +1,55 @@
+## **📋 LISTA DE COSAS A IMPLEMENTAR**
+
+### **Fase 1: Entidades Básicas **
+- ✅ Autor
+- ✅ Categoria
+- ✅ Libro
+- ✅ Usuario
+- ✅ Prestamo
+
+### **Fase 2: Repositories (Simple - Empezar aquí)**
+``` PONELE QUE YA ESTA HECHO, DESPUES VEREMOS.
+□ AutorRepository DONE
+□ CategoriaRepository
+□ LibroRepository
+□ UsuarioRepository
+□ PrestamoRepository
+```
+
+### **Fase 3: DTOs**
+```
+□ AutorDTO
+□ CategoriaDTO
+□ LibroDTO
+□ UsuarioDTO
+□ PrestamoDTO
+□ CrearPrestamoDTO (para crear préstamo nuevo)
+```
+
+### **Fase 4: Services**
+```
+□ AutorService
+□ CategoriaService
+□ LibroService
+□ UsuarioService
+□ PrestamoService
+```
+
+### **Fase 5: Controllers (API REST)**
+```
+□ AutorController
+□ CategoriaController
+□ LibroController
+□ UsuarioController
+□ PrestamoController
+```
+
+### **Fase 6: Funcionalidades Extra**
+```
+□ Buscar libros por título
+□ Buscar libros por autor
+□ Buscar libros por categoría
+□ Ver préstamos activos de un usuario
+□ Devolver un libro (cambiar estado del préstamo)
+□ Ver préstamos atrasados
+□ Historial de préstamos de un libro

@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update # Esto crea/actualiza las tablas
+    show-sql: true # Opcional: te muestra en la consola las SQL que ejecuta
+
+  # Asegúrate que la conexión a la BD también esté aquí
+  datasource:
+    url: jdbc:postgresql://localhost:5432/biblioteca_db
+    username: admin
+    password: admin123
